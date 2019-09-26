@@ -185,46 +185,46 @@ img {
   background: #c0c0c0;
 }
 .submenu__item--one::before {
-  background: url("/img/submenu-icon/1.png") no-repeat center;
+  background: url("../img/submenu-icon/1.png") no-repeat center;
 }
 .submenu__item--one:hover::before {
-  background: url("/img/submenu-icon/1-active.png") no-repeat center;
+  background: url("../img/submenu-icon/1-active.png") no-repeat center;
 }
 .submenu__item--two::before {
-  background: url("/img/submenu-icon/2.png") no-repeat center;
+  background: url("../img/submenu-icon/2.png") no-repeat center;
 }
 .submenu__item--two:hover::before {
-  background: url("/img/submenu-icon/2-active.png") no-repeat center;
+  background: url("../img/submenu-icon/2-active.png") no-repeat center;
 }
 .submenu__item--three::before {
-  background: url("/img/submenu-icon/3.png") no-repeat center;
+  background: url("../img/submenu-icon/3.png") no-repeat center;
 }
 .submenu__item--three:hover::before {
-  background: url("/img/submenu-icon/3-active.png") no-repeat center;
+  background: url("../img/submenu-icon/3-active.png") no-repeat center;
 }
 .submenu__item--four::before {
-  background: url("/img/submenu-icon/4.png") no-repeat center;
+  background: url("../img/submenu-icon/4.png") no-repeat center;
 }
 .submenu__item--four:hover::before {
-  background: url("/img/submenu-icon/4-active.png") no-repeat center;
+  background: url("../img/submenu-icon/4-active.png") no-repeat center;
 }
 .submenu__item--five::before {
-  background: url("/img/submenu-icon/5.png") no-repeat center;
+  background: url("../img/submenu-icon/5.png") no-repeat center;
 }
 .submenu__item--five:hover::before {
-  background: url("/img/submenu-icon/5-active.png") no-repeat center;
+  background: url("../img/submenu-icon/5-active.png") no-repeat center;
 }
 .submenu__item--six::before {
-  background: url("/img/submenu-icon/6.png") no-repeat center;
+  background: url("../img/submenu-icon/6.png") no-repeat center;
 }
 .submenu__item--six:hover::before {
-  background: url("/img/submenu-icon/6-active.png") no-repeat center;
+  background: url("../img/submenu-icon/6-active.png") no-repeat center;
 }
 .submenu__item--seven::before {
-  background: url("/img/submenu-icon/7.png") no-repeat center;
+  background: url("../img/submenu-icon/7.png") no-repeat center;
 }
 .submenu__item--seven:hover::before {
-  background: url("/img/submenu-icon/7-active.png") no-repeat center;
+  background: url("../img/submenu-icon/7-active.png") no-repeat center;
 }
 .submenu__item:hover,
 .submenu__item:focus {
@@ -301,14 +301,14 @@ img {
   left: 30px;
   width: 94px;
   height: 54px;
-  background: url("/img/submenu-title-one.png") no-repeat center;
+  background: url("../img/submenu-title-one.png") no-repeat center;
 }
 .menu-list__item:last-child .menu-list__link::before {
   top: 5px;
   right: 425px;
   width: 88px;
   height: 62px;
-  background: url("/img/submenu-title-two.png") no-repeat center;
+  background: url("../img/submenu-title-two.png") no-repeat center;
 }
 .page-wrapper a {
   color: inherit;
