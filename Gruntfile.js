@@ -5,7 +5,7 @@ module.exports = function( grunt ) {
     grunt.loadNpmTasks("grunt-browser-sync");
     grunt.loadNpmTasks("grunt-contrib-watch");
     grunt.loadNpmTasks("grunt-postcss");
-    grunt.loadNpmTasks('grunt-autoprefixer');
+    grunt.loadNpmTasks("grunt-autoprefixer");
   
 
     grunt.initConfig({

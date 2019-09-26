@@ -9,7 +9,101 @@
     </head>
     <body class="page-wrapper">
 		<header class="page-header container">
-            
+            <nav class="main-nav">
+                <div class="inner-container main-nav__container">
+                    <!--<button class="main-nav__toggle" type="button">Открыть меню</button>-->
+                    <ul class="main-nav__list site-list">
+                        <li class="site-list__item">
+                            <a  href="#" class="site-list__link">О компании</a>
+                        </li>  
+                        <li class="site-list__item">
+                            <a  href="#" class="site-list__link">Новости</a>
+                        </li>   
+                        <li class="site-list__item">
+                            <a  href="#" class="site-list__link">Каталог</a>
+                        </li>   
+                        <li class="site-list__item">
+                            <a  href="#" class="site-list__link">Новинки</a>
+                        </li>  
+                        <li class="site-list__item">
+                            <a  href="#" class="site-list__link">Поддержка</a>
+                        </li>  
+                        <li class="site-list__item">
+                            <a  href="#" class="site-list__link">Обучение</a>
+                        </li> 
+                        <li class="site-list__item">
+                            <a  href="#" class="site-list__link">Контакты</a>
+                        </li>         
+                    </ul>
+                    <ul class="main-nav__list user-list">
+                        <li class="user-list__item">
+                            <a class="user-list__link">
+                                <span class="visually-hidden">Поиск</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-info inner-container">
+                <a class="header-info__logo">
+                    <img class="header-info__logo-image" src="img/logo.jpg" width="215" height="62" alt="Логотип АРСТЕЛ">
+                </a>
+                <ul class="header-info__list">
+                    <li class="header-info__item">
+                        <span class="header-info__item__title">Санкт-Петербург</span>
+                        <span class="header-info__item__phone">+7 (812) 740-34-60</span>
+                    </li>
+                    <li class="header-info__item">
+                        <span class="header-info__item__title">Многоканальный</span>
+                        <span class="header-info__item__phone">8 (812) 740-34-60</span>                        
+                    </li>
+                    <li class="header-info__item">
+                        <span class="header-info__item__title">9:15-18:00 (Мск)</span>                       
+                    </li>
+                </ul>
+            </div>
+            <nav class="second-nav inner-container">
+                <ul class="second-nav__list menu-list">
+                    <li class="menu-list__item">
+                        <a class="menu-list__link" href="#">Оборудование для систем оповещения и трансляции</a>
+                        <ul class="menu-list__submenu submenu__list">
+                            <li class="submenu__item submenu__item--one">
+                                <a class="submenu__link" href="#">Каталог</a>
+                            </li>
+                            <li class="submenu__item submenu__item--two">
+                                <a class="submenu__link" href="#">Проектирование систем оповещения и трансляции</a>
+                            </li> 
+                            <li class="submenu__item submenu__item--three">
+                                <a class="submenu__link" href="#">Нормативная документация</a>
+                            </li> 
+                            <li class="submenu__item submenu__item--four">
+                                <a class="submenu__link" href="#">Структурные схемы и схемы электрических соединений</a>
+                            </li>
+                            <li class="submenu__item submenu__item--five">
+                                <a class="submenu__link" href="#">Программы для расчета</a>
+                            </li> 
+                            <li class="submenu__item submenu__item--six">
+                                <a class="submenu__link" href="#">Техническая поддержка</a>
+                            </li>  
+                            <li class="submenu__item submenu__item--seven">
+                                <a class="submenu__link" href="#">Статьи по системам оповещения</a>
+                            </li>                                                                                  
+                        </ul>
+                    </li>
+                    <li class="menu-list__item">
+                        <a class="menu-list__link" href="#">Профессиональное звуковое оборудование</a>
+                        <ul class="menu-list__submenu submenu__list">
+                            <li class="submenu__item submenu__item--eight">
+                                <a class="submenu__link" href="#">Подпункт 1</a>
+                            </li>
+                            <li class="submenu__item submenu__item--nine">
+                                <a class="submenu__link" href="#">Подпункт 2</a>
+                            </li> 
+                            </li>                                                                                  
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </header>
 
         <main class="page-main  container">
@@ -20,6 +114,8 @@
         <footer class="page-footer  container">
 
         </footer>
+
+        <div class="overlay"></div>
 
         <script src="js/script.js"></script>
         <script src="gruntfile.js"></script>

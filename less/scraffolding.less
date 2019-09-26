@@ -11,7 +11,7 @@ body{
     color:#000;
     font-style: normal;
 
-    background-color: @bg-lightgrey;
+    background-color: @bg-main;
 }
 
 img{
@@ -41,7 +41,6 @@ img{
 }
 
 .container{
-    background-color: @bg-darkgrey;
     min-height: 150px;
 }
 
@@ -97,5 +96,8 @@ img{
 @media screen and (min-width:  @desktop-width){
     .page-wrapper {
         width:  @desktop-width;
-    }    
+    }   
+    .inner-container{
+        width: @desktop-inner-container;
+    }
 }
