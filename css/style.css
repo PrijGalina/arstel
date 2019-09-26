@@ -1,0 +1,98 @@
+/* Variables */
+/* Файл variables.less */
+/* Fonts */
+/* подключение шрифта */
+@font-face {
+  font-family: 'PT Sans Narrow';
+  src: url('../font/PTSans-NarrowBold.eot');
+  src: local('../font/PT Sans Narrow Bold'), local('PTSans-NarrowBold'), url('../font/PTSans-NarrowBold.eot?#iefix') format('embedded-opentype'), url('../font/PTSans-NarrowBold.woff2') format('woff2'), url('../font/PTSans-NarrowBold.woff') format('woff'), url('../font/PTSans-NarrowBold.ttf') format('truetype'), url('../font/PTSans-NarrowBold.svg#PTSans-NarrowBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+/* Mixins */
+/* Файл mixins.less */
+/* Global style */
+/* Файл scraffolding.less */
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'PT Sans Narrow', 'Arial', sans-serif;
+  color: #000;
+  font-style: normal;
+  background-color: #f8f5f2;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.page-wrapper {
+  width: 320px;
+  margin: 0 auto;
+}
+.container {
+  background-color: #292929;
+  min-height: 150px;
+}
+.button {
+  display: inline-block;
+  height: 50px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 50px;
+  color: #000000;
+  text-align: center;
+  border: 1px solid #e5ddd5;
+}
+.button:hover,
+.button:focus {
+  border: 1px solid #d5c9bd;
+}
+.button:active {
+  background-color: #d5c9bd;
+  border: 1px solid #d5c9bd;
+  color: rgba(0, 0, 0, 0.3);
+}
+.button--footer {
+  display: inline-block;
+  height: 50px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 50px;
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #3f3f3f;
+}
+/*ПЛАНШЕТ*/
+@media screen and (min-width: 768px) {
+  .page-wrapper {
+    width: 768px;
+  }
+}
+/*ДЕСКТОП*/
+@media screen and (min-width: 1200px) {
+  .page-wrapper {
+    width: 1200px;
+  }
+}
+/* Style */

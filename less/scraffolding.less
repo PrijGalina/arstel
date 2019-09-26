@@ -1,0 +1,101 @@
+/* Файл scraffolding.less */
+
+body{
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'PT Sans Narrow', 'Arial', sans-serif;
+    color:#000;
+    font-style: normal;
+
+    background-color: @bg-lightgrey;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active){
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+  
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;    
+}
+
+.page-wrapper{
+    width: @mobile-width;
+    margin: 0 auto;
+}
+
+.container{
+    background-color: @bg-darkgrey;
+    min-height: 150px;
+}
+
+.button{
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    vertical-align: middle;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+    color: #000000;
+    text-align: center;
+    border: 1px solid #e5ddd5;    
+}
+
+.button:hover,
+.button:focus{
+    border: 1px solid #d5c9bd;  
+}
+
+.button:active{
+    background-color: #d5c9bd;
+    border: 1px solid #d5c9bd;  
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.button--footer{
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    vertical-align: middle;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #3f3f3f;    
+}
+
+/*ПЛАНШЕТ*/
+@media screen and (min-width: @tablet-width){
+    .page-wrapper {
+        width: @tablet-width;
+    }    
+}
+
+/*ДЕСКТОП*/
+@media screen and (min-width:  @desktop-width){
+    .page-wrapper {
+        width:  @desktop-width;
+    }    
+}
