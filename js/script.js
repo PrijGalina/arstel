@@ -47,6 +47,13 @@ overlay.addEventListener('click', function(e){
     overlay.classList.remove('active');
 });
 
+/* форма поиска */
+var search_toogle = document.querySelector('.search-icon'); 
+var search_form = document.querySelector('.search-form');
+
+search_toogle.addEventListener('click', function(e){
+    search_form.classList.toggle('active');
+});
 
 
 
@@ -79,32 +86,6 @@ menu_toogle.addEventListener('click', function(e){
 });
 
 */
-
-/* Новости */
-
-/*
-var news_list = document.querySelector(".news__list--not-all");
-var btn_news = document.querySelector(".news__to-all");
-
-btn_news.addEventListener('click', function(e){
-    e.preventDefault(); 
-    if(news_list.classList.contains('news__list--full')){
-        news_list.classList.remove('news__list--full');
-        news_list.classList.add('news__list--not-all');
-        btn_news.textContent = "Показать все";        
-
-    }
-    
-    else{
-        news_list.classList.add('news__list--full');
-        news_list.classList.remove('news__list--not-all');
-        btn_news.textContent = "Скрыть";
-    }
-});
-
-*/
-
-
 
 /* обновить страницу, если ширина окна браузера изменилась */
 var oldWidth = window.innerWidth;
